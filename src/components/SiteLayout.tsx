@@ -31,7 +31,7 @@ export function SiteLayout() {
           ))}
         </nav>
         <a className="header-contact" href="mailto:tslatebely@gmail.com">
-          Get in touch <ArrowUpRight size={15} />
+          Get in touch <a/>
         </a>
       </header>
 

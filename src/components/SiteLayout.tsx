@@ -1,5 +1,5 @@
 import { NavLink, Outlet, Link } from "react-router-dom";
-import { ArrowUpRight, Github, Linkedin } from "lucide-react";
+//
 
 const links = [
   { to: "/", label: "Overview", end: true },
@@ -45,12 +45,12 @@ export function SiteLayout() {
           <span className="footer-note">AI · Software · Brain & Data Science</span>
         </div>
         <div className="footer-links">
-          <a href="https://github.com/bely-lab" target="_blank" rel="noreferrer" aria-label="GitHub">
-            <Github size={17} />
-          </a>
-          <a href="https://www.linkedin.com/in/belaynesh-m-kndie-207649220/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-            <Linkedin size={17} />
-          </a>
+          <a href="https://github.com/bely-lab" target="_blank" rel="noreferrer">
+  GitHub
+</a>
+         <a href="https://www.linkedin.com/in/belaynesh-m-kndie-207649220/" target="_blank" rel="noreferrer">
+  LinkedIn
+</a>
           <span>© {new Date().getFullYear()}</span>
         </div>
       </footer>

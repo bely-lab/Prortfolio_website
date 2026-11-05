@@ -11,7 +11,12 @@ export default function Home() {
       <section className="hero-section">
         <div className="hero-copy">
           <p className="eyebrow"><span className="status-dot" /> Based in Finland · Open to opportunities</p>
-          <h1>Engineering software.<br /><em>Exploring intelligence.</em></h1>
+          <h1 className="text-3xl font-medium leading-tight tracking-[-0.035em] sm:text-4xl md:text-5xl">
+  Engineering software.
+  <br />
+  <em className="font-normal">Exploring intelligence.</em>
+</h1>
+          
           <p className="hero-lede">
             I’m Belaynesh, an AI and software engineer with a background in Brain and Data Science.
             I work across software development, machine learning and data-driven research.

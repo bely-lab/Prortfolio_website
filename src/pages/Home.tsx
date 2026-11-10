@@ -14,7 +14,7 @@ export default function Home() {
           <h1 className="text-3xl font-medium leading-tight tracking-[-0.035em] sm:text-4xl md:text-5xl">
   Engineering software.
   <br />
-  <em className="font-normal">Exploring intelligence.</em>
+  <em className="font-normal">Exploring intelligence</em>
 </h1>
           
           <p className="hero-lede">

@@ -7,7 +7,7 @@ const roles = [
     role: "Research Intern",
     organisation: "Haqila Lab",
     description:
-      "Exploring Stroke diseases applyign deep learning with MRI.",
+      "Exploring Stroke diseases applyign deep learning with multimodal data.",
     points: [
       "Exploring multimodal datasets for disease research",
       "Assessing data sources and their suitability for machine learning",
